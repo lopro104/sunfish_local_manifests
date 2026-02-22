@@ -3,7 +3,7 @@
     <!--Remotes-->
     <remote name="los"       fetch="https://github.com/LineageOS"        revision="lineage-22.2" />
     <remote name="muppets"   fetch="https://github.com/TheMuppets"       revision="lineage-22.2" />
-    <remote name="gh"        fetch="https://github.com/apelete"          revision="lineage-22.2" />
+    <remote name="gh"        fetch="https://github.com/lopro104"          revision="lineage-22.2" />
 
     <!--Devices Trees-->
     <project name="android_device_google_gs-common"         path="device/google/gs-common"     remote="los" />
