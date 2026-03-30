@@ -5,7 +5,6 @@
   <project name="lopro104/android_kernel_google_msm-4.14" path="kernel/google/msm-4.14" remote="github" revision="bq2" />
   <project name="TheMuppets/proprietary_vendor_google_sunfish" path="vendor/google/sunfish" remote="github" revision="lineage-23.2" />
   
-  <remove-project name="Evox/vendor_gms" />
-  <project name="lopro104/vendor-gms" path="vendor/gms"  remote="gitlab" revision="udc" />
+  <project name="lopro104/vendor-gms" path="vendor/gms2"  remote="gitlab" revision="udc" />
   <project name="lopro104/sunfishblimages" path="vendor/google/sunfish/radio2" remote="gitlab" revision="main" />  
 </manifest>
