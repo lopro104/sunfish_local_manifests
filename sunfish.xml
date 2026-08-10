@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
-  <project name="lopro104/android_device_google_sunfish" path="device/google/sunfish" remote="github" revision="11.7" />
+  <project name="lopro104/android_device_google_sunfish" path="device/google/sunfish" remote="github" revision="cnb" />
   <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-23.2" />
-  <project name="lopro104/android_kernel_google_msm-4.14" path="kernel/google/msm-4.14" remote="github" revision="bq2" />
+  <project name="lopro104/android_kernel_google_msm-4.14" path="kernel/google/msm-4.14" remote="github" revision="cnb" />
   <project name="TheMuppets/proprietary_vendor_google_sunfish" path="vendor/google/sunfish" remote="github" revision="lineage-23.2" />
 </manifest>
