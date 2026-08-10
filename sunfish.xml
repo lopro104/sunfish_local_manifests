@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest> 
+<manifest>
+  <remove-project name="hardware_interfaces" />
+  <remove-project name="hardware_google_pixel" />
+  <remove-project name="platform/hardware/google/interfaces" />
+  <remove-project name="platform/frameworks/hardware/interfaces" />
+  <project name="lopro104/frameworks_hardware_interfaces" path="frameworks/hardware/interfaces" groups="pdk,sysui-studio" remote="github" revision="cnb" />
+  <project name="lopro104/hardware_google_interfaces" path="hardware/google/interfaces" groups="pdk,sysui-studio" remote="github" revision="cnb" />
+  <project name="lopro104/hardware_google_pixel" path="hardware/google/pixel" groups="pdk,sysui-studio" remote="github" revision="cnb" />
+  <project name="lopro104/hardware_interfaces" path="hardware/interfaces" groups="pdk,sysui-studio" remote="github" revision="cnb" />
   <project name="lopro104/android_device_google_sunfish" path="device/google/sunfish" remote="github" revision="cnb" />
   <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-23.2" />
   <project name="lopro104/android_kernel_google_msm-4.14" path="kernel/google/msm-4.14" remote="github" revision="cnb" />
-  <project name="TheMuppets/proprietary_vendor_google_sunfish" path="vendor/google/sunfish" remote="github" revision="lineage-23.2" />
+  <project name="lopro104/proprietary_vendor_google_sunfish" path="vendor/google/sunfish" remote="github" revision="cnb" />
 </manifest>
